@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="455.0" prefWidth="612.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Controller">
+   <children>
+      <BorderPane prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <HBox prefHeight="476.0" prefWidth="509.0">
+         <children>
+          <AnchorPane maxWidth="130.0" minHeight="0.0" minWidth="130.0" prefHeight="160.0" prefWidth="130.0">
+               <children>
+                  <Button fx:id="pivotButton" layoutX="6.0" layoutY="2.0" mnemonicParsing="false" onAction="#clickPivotButton" prefHeight="25.0" prefWidth="119.0" text="Pivot" />
+                  <Button fx:id="petshopButton" layoutX="6.0" layoutY="67.0" mnemonicParsing="false" onAction="#clickPetshopButton" prefHeight="25.0" prefWidth="119.0" text="Petshop" />
+                  <Button fx:id="vetnaButton" layoutX="6.0" layoutY="98.0" mnemonicParsing="false" onAction="#clickVetnaButton" prefHeight="25.0" prefWidth="119.0" text="Vetna" />
+                  <Button fx:id="bagiraButton" layoutX="6.0" layoutY="33.0" mnemonicParsing="false" onAction="#clickBagiraButton" prefHeight="25.0" prefWidth="119.0" text="Bagira" />
+                  <Label fx:id="labelId" layoutX="16.0" layoutY="209.0" prefHeight="100.0" prefWidth="99.0" text="Labeltext" />
+                  <Button fx:id="testButton" layoutX="16.0" layoutY="359.0" mnemonicParsing="false" onAction="#clickTestButton" text="TestButton" />
+                  <Button fx:id="testButton1" layoutX="16.0" layoutY="322.0" mnemonicParsing="false" onAction="#clickTestButton1" text="Button" />
+                  <Button fx:id="vetnaParsingButton" layoutX="6.0" layoutY="147.0" mnemonicParsing="false" onAction="#clickVetnaParsingButton" prefHeight="25.0" prefWidth="119.0" text="Parsing Vetna" />
+               </children>
+            </AnchorPane>
+          <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" prefHeight="455.0" prefWidth="480.0">
+               <children>
+                  <TableView fx:id="tableView" layoutX="-25.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onMouseClicked="#clickedItem" prefHeight="455.0" prefWidth="465.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
+               </children></AnchorPane>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
